@@ -7,5 +7,5 @@ use Vista\Model\Model;
 class User extends Model
 {
     protected string $table = 'users';
-    protected array $columns = ['id', 'name', 'email', 'password'];
+    protected array $columns = ['id', 'username', 'email', 'password', 'slika'];
 }
